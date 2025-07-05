@@ -1,0 +1,46 @@
+{
+  "name": "type-i18n",
+  "version": "0.1.0",
+  "description": "Type-safe internationalization library for React with full TypeScript support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "react",
+    "typescript",
+    "type-safe"
+  ],
+  "author": "type-i18n contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsugeno/type-i18n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imsugeno/type-i18n/issues"
+  },
+  "homepage": "https://github.com/imsugeno/type-i18n#readme",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.79",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.2.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
