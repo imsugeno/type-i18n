@@ -13,11 +13,11 @@ Type-safe internationalization library for React with full TypeScript support
 ## Installation
 
 ```bash
-npm install type-i18n
+npm install @imsugeno/type-i18n
 # or
-yarn add type-i18n
+yarn add @imsugeno/type-i18n
 # or
-pnpm add type-i18n
+pnpm add @imsugeno/type-i18n
 ```
 
 ## Usage
@@ -61,7 +61,7 @@ export type Translations = typeof enTranslations;
 
 ```typescript
 // i18n.ts
-import { createI18n } from 'type-i18n';
+import { createI18n } from '@imsugeno/type-i18n';
 import { enTranslations, jaTranslations, Translations } from './translations';
 
 export const { I18nProvider, useTranslation, useLocale, Trans } = createI18n<Translations>({

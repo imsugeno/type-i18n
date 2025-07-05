@@ -1,5 +1,5 @@
 {
-  "name": "type-i18n",
+  "name": "@imsugeno/type-i18n",
   "version": "0.1.0",
   "description": "Type-safe internationalization library for React with full TypeScript support",
   "main": "dist/index.js",
@@ -9,8 +9,14 @@
     "dev": "tsc --watch",
     "test": "jest",
     "lint": "eslint . --ext .ts,.tsx",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test && npm run typecheck"
   },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "i18n",
     "internationalization",
